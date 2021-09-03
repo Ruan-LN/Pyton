@@ -1,18 +1,21 @@
-print ("Hello, Word");
-# Básico / Basic " Hello Word"
+print ("Hello, Word!")
+    # Básico / Basic " Hello Word"
 
 
-# Avançado com Fução / Advanceer wich funtion 
+def hello():
+    print(" Olá, Mundo!")
 
-def hello ():
-    print(" Hello, Word (def)")
+    # Avançado com Fução / Advanceer wich funtion
+hello()
 
-hello ()
 
-def code ():
-    print(" 1° Code at Pyton / 1° codigo em pyton")
+def code():
+    print(" 1° Code at Pyton / 1° codigo em Pyton")
 
-code ()
+code()
+    # Interação Báisca com usuário / Basical interaction wich user
 
-nome = input("Digite seu nome:")
-print("Hello Word!_"+nome)
+n = input("Digite seu nome: / Type your name:")
+print("Hello!/ Olá!" +n)
+
+
